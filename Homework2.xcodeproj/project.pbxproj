@@ -7,19 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9964EA7426E296FE007000D1 /* MyMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9964EA7326E296FE007000D1 /* MyMonitor.swift */; };
 		9964EA7626E29975007000D1 /* MySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9964EA7526E29975007000D1 /* MySchedule.swift */; };
 		9964EA7826E29DB7007000D1 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9964EA7726E29DB7007000D1 /* MyModel.swift */; };
+		9964EA8126E2B10C007000D1 /* MyMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9964EA8026E2B10C007000D1 /* MyMonitor.swift */; };
+		9964EA8526E2B10C007000D1 /* MyExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9964EA7E26E2B10C007000D1 /* MyExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9964EA8A26E2B256007000D1 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9964EA7726E29DB7007000D1 /* MyModel.swift */; };
 		99EE9DAE26E2694100F0FB9C /* Homework2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE9DAD26E2694100F0FB9C /* Homework2App.swift */; };
 		99EE9DB026E2694100F0FB9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE9DAF26E2694100F0FB9C /* ContentView.swift */; };
 		99EE9DB226E2694300F0FB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EE9DB126E2694300F0FB9C /* Assets.xcassets */; };
 		99EE9DB526E2694300F0FB9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EE9DB426E2694300F0FB9C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9964EA8326E2B10C007000D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99EE9DA226E2694000F0FB9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9964EA7D26E2B10C007000D1;
+			remoteInfo = MyExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9964EA8926E2B10C007000D1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9964EA8526E2B10C007000D1 /* MyExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		9964EA7326E296FE007000D1 /* MyMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMonitor.swift; sourceTree = "<group>"; };
 		9964EA7526E29975007000D1 /* MySchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySchedule.swift; sourceTree = "<group>"; };
 		9964EA7726E29DB7007000D1 /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
+		9964EA7E26E2B10C007000D1 /* MyExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9964EA8026E2B10C007000D1 /* MyMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMonitor.swift; sourceTree = "<group>"; };
+		9964EA8226E2B10C007000D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99EE9DAA26E2694000F0FB9C /* Homework2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99EE9DAD26E2694100F0FB9C /* Homework2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework2App.swift; sourceTree = "<group>"; };
 		99EE9DAF26E2694100F0FB9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,6 +57,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9964EA7B26E2B10C007000D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99EE9DA726E2694000F0FB9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,10 +74,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9964EA7F26E2B10C007000D1 /* MyExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9964EA8026E2B10C007000D1 /* MyMonitor.swift */,
+				9964EA8226E2B10C007000D1 /* Info.plist */,
+			);
+			path = MyExtension;
+			sourceTree = "<group>";
+		};
 		99EE9DA126E2694000F0FB9C = {
 			isa = PBXGroup;
 			children = (
 				99EE9DAC26E2694000F0FB9C /* Homework2 */,
+				9964EA7F26E2B10C007000D1 /* MyExtension */,
 				99EE9DAB26E2694000F0FB9C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				99EE9DAA26E2694000F0FB9C /* Homework2.app */,
+				9964EA7E26E2B10C007000D1 /* MyExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,7 +109,6 @@
 				99EE9DAF26E2694100F0FB9C /* ContentView.swift */,
 				99EE9DB126E2694300F0FB9C /* Assets.xcassets */,
 				99EE9DB326E2694300F0FB9C /* Preview Content */,
-				9964EA7326E296FE007000D1 /* MyMonitor.swift */,
 				9964EA7526E29975007000D1 /* MySchedule.swift */,
 				9964EA7726E29DB7007000D1 /* MyModel.swift */,
 			);
@@ -81,6 +126,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9964EA7D26E2B10C007000D1 /* MyExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9964EA8626E2B10C007000D1 /* Build configuration list for PBXNativeTarget "MyExtension" */;
+			buildPhases = (
+				9964EA7A26E2B10C007000D1 /* Sources */,
+				9964EA7B26E2B10C007000D1 /* Frameworks */,
+				9964EA7C26E2B10C007000D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyExtension;
+			productName = MyExtension;
+			productReference = 9964EA7E26E2B10C007000D1 /* MyExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		99EE9DA926E2694000F0FB9C /* Homework2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99EE9DB826E2694300F0FB9C /* Build configuration list for PBXNativeTarget "Homework2" */;
@@ -88,10 +150,12 @@
 				99EE9DA626E2694000F0FB9C /* Sources */,
 				99EE9DA726E2694000F0FB9C /* Frameworks */,
 				99EE9DA826E2694000F0FB9C /* Resources */,
+				9964EA8926E2B10C007000D1 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9964EA8426E2B10C007000D1 /* PBXTargetDependency */,
 			);
 			name = Homework2;
 			productName = Homework2;
@@ -108,6 +172,9 @@
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					9964EA7D26E2B10C007000D1 = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					99EE9DA926E2694000F0FB9C = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -127,11 +194,19 @@
 			projectRoot = "";
 			targets = (
 				99EE9DA926E2694000F0FB9C /* Homework2 */,
+				9964EA7D26E2B10C007000D1 /* MyExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9964EA7C26E2B10C007000D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99EE9DA826E2694000F0FB9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,12 +219,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9964EA7A26E2B10C007000D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9964EA8126E2B10C007000D1 /* MyMonitor.swift in Sources */,
+				9964EA8A26E2B256007000D1 /* MyModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99EE9DA626E2694000F0FB9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				99EE9DB026E2694100F0FB9C /* ContentView.swift in Sources */,
-				9964EA7426E296FE007000D1 /* MyMonitor.swift in Sources */,
 				9964EA7826E29DB7007000D1 /* MyModel.swift in Sources */,
 				9964EA7626E29975007000D1 /* MySchedule.swift in Sources */,
 				99EE9DAE26E2694100F0FB9C /* Homework2App.swift in Sources */,
@@ -158,7 +241,69 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		9964EA8426E2B10C007000D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9964EA7D26E2B10C007000D1 /* MyExtension */;
+			targetProxy = 9964EA8326E2B10C007000D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		9964EA8726E2B10C007000D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47C966XSTJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garrett-harris.adam.Homework2.MyExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9964EA8826E2B10C007000D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47C966XSTJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garrett-harris.adam.Homework2.MyExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		99EE9DB626E2694300F0FB9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -278,6 +423,7 @@
 		99EE9DB926E2694300F0FB9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Homework2/Homework2.entitlements;
@@ -287,6 +433,7 @@
 				DEVELOPMENT_TEAM = 47C966XSTJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Homework2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,6 +456,7 @@
 		99EE9DBA26E2694300F0FB9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Homework2/Homework2.entitlements;
@@ -318,6 +466,7 @@
 				DEVELOPMENT_TEAM = 47C966XSTJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Homework2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -340,6 +489,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9964EA8626E2B10C007000D1 /* Build configuration list for PBXNativeTarget "MyExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9964EA8726E2B10C007000D1 /* Debug */,
+				9964EA8826E2B10C007000D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		99EE9DA526E2694000F0FB9C /* Build configuration list for PBXProject "Homework2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
