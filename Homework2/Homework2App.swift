@@ -1,5 +1,6 @@
 import SwiftUI
 import FamilyControls
+import ManagedSettings
 
 // Homework demo app
 // 1. Shield discouraged apps
@@ -13,10 +14,14 @@ struct Homework2App: App {
     // 1b. Add an AppDelgate to the app to request authorization when the app first launches
     @UIApplicationDelegateAdaptor private var appDelegate: AppDelegate
     
+    @StateObject var model = MyModel.shared
+    @StateObject var store = ManagedSettingsStore()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(MyModel.shared)
+                .environmentObject(model)
+                .environmentObject(store)
         }
     }
 }
