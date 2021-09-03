@@ -23,20 +23,16 @@ class MyMonitor: DeviceActivityMonitor {
         print("Interval did start for activity: ", activity)
         super.intervalDidStart(for: activity)
         
-        // Pull the selection out of the app's model and configure the application shield restriction accordingly
-        
-        // let applications = model.selectionToDiscourage.applications // This is from the documentation, but when I try to save it to store.shield.applications, it says the expression is ambiguous without more context
-        let applications = MyModel.shared.selectionToDiscourage.applicationTokens
-        
-        store.shield.applications = applications.isEmpty ? nil : applications
+        MyModel.shared.setShieldRestrictions()
     }
     
     override func intervalDidEnd(for activity: DeviceActivityName) {
         print("Interval did end for activity: ", activity)
         super.intervalDidEnd(for: activity)
         
-        // Remove the restriction by setting it to nil
+        // Remove the restrictions by setting them to nil
         store.shield.applications = nil
+        store.shield.applicationCategories = nil
     }
     
     override func intervalWillStartWarning(for activity: DeviceActivityName) {
