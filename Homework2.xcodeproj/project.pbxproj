@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9964EA7426E296FE007000D1 /* MyMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9964EA7326E296FE007000D1 /* MyMonitor.swift */; };
+		9964EA7626E29975007000D1 /* MySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9964EA7526E29975007000D1 /* MySchedule.swift */; };
+		9964EA7826E29DB7007000D1 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9964EA7726E29DB7007000D1 /* MyModel.swift */; };
 		99EE9DAE26E2694100F0FB9C /* Homework2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE9DAD26E2694100F0FB9C /* Homework2App.swift */; };
 		99EE9DB026E2694100F0FB9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE9DAF26E2694100F0FB9C /* ContentView.swift */; };
 		99EE9DB226E2694300F0FB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EE9DB126E2694300F0FB9C /* Assets.xcassets */; };
@@ -14,11 +17,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9964EA7326E296FE007000D1 /* MyMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMonitor.swift; sourceTree = "<group>"; };
+		9964EA7526E29975007000D1 /* MySchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySchedule.swift; sourceTree = "<group>"; };
+		9964EA7726E29DB7007000D1 /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
 		99EE9DAA26E2694000F0FB9C /* Homework2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99EE9DAD26E2694100F0FB9C /* Homework2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework2App.swift; sourceTree = "<group>"; };
 		99EE9DAF26E2694100F0FB9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99EE9DB126E2694300F0FB9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99EE9DB426E2694300F0FB9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99EE9DBB26E26EE800F0FB9C /* Homework2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Homework2.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +58,14 @@
 		99EE9DAC26E2694000F0FB9C /* Homework2 */ = {
 			isa = PBXGroup;
 			children = (
+				99EE9DBB26E26EE800F0FB9C /* Homework2.entitlements */,
 				99EE9DAD26E2694100F0FB9C /* Homework2App.swift */,
 				99EE9DAF26E2694100F0FB9C /* ContentView.swift */,
 				99EE9DB126E2694300F0FB9C /* Assets.xcassets */,
 				99EE9DB326E2694300F0FB9C /* Preview Content */,
+				9964EA7326E296FE007000D1 /* MyMonitor.swift */,
+				9964EA7526E29975007000D1 /* MySchedule.swift */,
+				9964EA7726E29DB7007000D1 /* MyModel.swift */,
 			);
 			path = Homework2;
 			sourceTree = "<group>";
@@ -138,6 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				99EE9DB026E2694100F0FB9C /* ContentView.swift in Sources */,
+				9964EA7426E296FE007000D1 /* MyMonitor.swift in Sources */,
+				9964EA7826E29DB7007000D1 /* MyModel.swift in Sources */,
+				9964EA7626E29975007000D1 /* MySchedule.swift in Sources */,
 				99EE9DAE26E2694100F0FB9C /* Homework2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Homework2/Homework2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Homework2/Preview Content\"";
@@ -277,7 +292,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Homework2/Homework2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Homework2/Preview Content\"";
@@ -307,7 +323,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
