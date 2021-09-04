@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9915EAAD26E2DED300A00692 /* MyDeviceActivityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9915EAAC26E2DED300A00692 /* MyDeviceActivityMonitor.swift */; };
+		9915EAB126E2DED300A00692 /* MyDeviceActivityMonitor.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9915EAAA26E2DED300A00692 /* MyDeviceActivityMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9964EA7626E29975007000D1 /* MySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9964EA7526E29975007000D1 /* MySchedule.swift */; };
 		9964EA7826E29DB7007000D1 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9964EA7726E29DB7007000D1 /* MyModel.swift */; };
-		9964EA8126E2B10C007000D1 /* MyMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9964EA8026E2B10C007000D1 /* MyMonitor.swift */; };
-		9964EA8526E2B10C007000D1 /* MyExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9964EA7E26E2B10C007000D1 /* MyExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9964EA8A26E2B256007000D1 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9964EA7726E29DB7007000D1 /* MyModel.swift */; };
 		99EE9DAE26E2694100F0FB9C /* Homework2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE9DAD26E2694100F0FB9C /* Homework2App.swift */; };
 		99EE9DB026E2694100F0FB9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE9DAF26E2694100F0FB9C /* ContentView.swift */; };
 		99EE9DB226E2694300F0FB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EE9DB126E2694300F0FB9C /* Assets.xcassets */; };
@@ -19,12 +18,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9964EA8326E2B10C007000D1 /* PBXContainerItemProxy */ = {
+		9915EAAF26E2DED300A00692 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 99EE9DA226E2694000F0FB9C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9964EA7D26E2B10C007000D1;
-			remoteInfo = MyExtension;
+			remoteGlobalIDString = 9915EAA926E2DED300A00692;
+			remoteInfo = MyDeviceActivityMonitor;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,7 +34,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				9964EA8526E2B10C007000D1 /* MyExtension.appex in Embed App Extensions */,
+				9915EAB126E2DED300A00692 /* MyDeviceActivityMonitor.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,11 +42,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9915EAAA26E2DED300A00692 /* MyDeviceActivityMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyDeviceActivityMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9915EAAC26E2DED300A00692 /* MyDeviceActivityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDeviceActivityMonitor.swift; sourceTree = "<group>"; };
+		9915EAAE26E2DED300A00692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9964EA7526E29975007000D1 /* MySchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySchedule.swift; sourceTree = "<group>"; };
 		9964EA7726E29DB7007000D1 /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
-		9964EA7E26E2B10C007000D1 /* MyExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		9964EA8026E2B10C007000D1 /* MyMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMonitor.swift; sourceTree = "<group>"; };
-		9964EA8226E2B10C007000D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99EE9DAA26E2694000F0FB9C /* Homework2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99EE9DAD26E2694100F0FB9C /* Homework2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework2App.swift; sourceTree = "<group>"; };
 		99EE9DAF26E2694100F0FB9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,7 +56,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9964EA7B26E2B10C007000D1 /* Frameworks */ = {
+		9915EAA726E2DED300A00692 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,20 +73,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9964EA7F26E2B10C007000D1 /* MyExtension */ = {
+		9915EAAB26E2DED300A00692 /* MyDeviceActivityMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				9964EA8026E2B10C007000D1 /* MyMonitor.swift */,
-				9964EA8226E2B10C007000D1 /* Info.plist */,
+				9915EAAC26E2DED300A00692 /* MyDeviceActivityMonitor.swift */,
+				9915EAAE26E2DED300A00692 /* Info.plist */,
 			);
-			path = MyExtension;
+			path = MyDeviceActivityMonitor;
 			sourceTree = "<group>";
 		};
 		99EE9DA126E2694000F0FB9C = {
 			isa = PBXGroup;
 			children = (
 				99EE9DAC26E2694000F0FB9C /* Homework2 */,
-				9964EA7F26E2B10C007000D1 /* MyExtension */,
+				9915EAAB26E2DED300A00692 /* MyDeviceActivityMonitor */,
 				99EE9DAB26E2694000F0FB9C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				99EE9DAA26E2694000F0FB9C /* Homework2.app */,
-				9964EA7E26E2B10C007000D1 /* MyExtension.appex */,
+				9915EAAA26E2DED300A00692 /* MyDeviceActivityMonitor.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,21 +125,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9964EA7D26E2B10C007000D1 /* MyExtension */ = {
+		9915EAA926E2DED300A00692 /* MyDeviceActivityMonitor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9964EA8626E2B10C007000D1 /* Build configuration list for PBXNativeTarget "MyExtension" */;
+			buildConfigurationList = 9915EAB226E2DED300A00692 /* Build configuration list for PBXNativeTarget "MyDeviceActivityMonitor" */;
 			buildPhases = (
-				9964EA7A26E2B10C007000D1 /* Sources */,
-				9964EA7B26E2B10C007000D1 /* Frameworks */,
-				9964EA7C26E2B10C007000D1 /* Resources */,
+				9915EAA626E2DED300A00692 /* Sources */,
+				9915EAA726E2DED300A00692 /* Frameworks */,
+				9915EAA826E2DED300A00692 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyExtension;
-			productName = MyExtension;
-			productReference = 9964EA7E26E2B10C007000D1 /* MyExtension.appex */;
+			name = MyDeviceActivityMonitor;
+			productName = MyDeviceActivityMonitor;
+			productReference = 9915EAAA26E2DED300A00692 /* MyDeviceActivityMonitor.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		99EE9DA926E2694000F0FB9C /* Homework2 */ = {
@@ -155,7 +154,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9964EA8426E2B10C007000D1 /* PBXTargetDependency */,
+				9915EAB026E2DED300A00692 /* PBXTargetDependency */,
 			);
 			name = Homework2;
 			productName = Homework2;
@@ -172,7 +171,7 @@
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					9964EA7D26E2B10C007000D1 = {
+					9915EAA926E2DED300A00692 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 					99EE9DA926E2694000F0FB9C = {
@@ -194,13 +193,13 @@
 			projectRoot = "";
 			targets = (
 				99EE9DA926E2694000F0FB9C /* Homework2 */,
-				9964EA7D26E2B10C007000D1 /* MyExtension */,
+				9915EAA926E2DED300A00692 /* MyDeviceActivityMonitor */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9964EA7C26E2B10C007000D1 /* Resources */ = {
+		9915EAA826E2DED300A00692 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -219,12 +218,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9964EA7A26E2B10C007000D1 /* Sources */ = {
+		9915EAA626E2DED300A00692 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9964EA8126E2B10C007000D1 /* MyMonitor.swift in Sources */,
-				9964EA8A26E2B256007000D1 /* MyModel.swift in Sources */,
+				9915EAAD26E2DED300A00692 /* MyDeviceActivityMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,15 +240,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9964EA8426E2B10C007000D1 /* PBXTargetDependency */ = {
+		9915EAB026E2DED300A00692 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9964EA7D26E2B10C007000D1 /* MyExtension */;
-			targetProxy = 9964EA8326E2B10C007000D1 /* PBXContainerItemProxy */;
+			target = 9915EAA926E2DED300A00692 /* MyDeviceActivityMonitor */;
+			targetProxy = 9915EAAF26E2DED300A00692 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		9964EA8726E2B10C007000D1 /* Debug */ = {
+		9915EAB326E2DED300A00692 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -259,8 +257,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 47C966XSTJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = MyExtension;
+				INFOPLIST_FILE = MyDeviceActivityMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyDeviceActivityMonitor;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -268,7 +266,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.garrett-harris.adam.Homework2.MyExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garrett-harris.adam.Homework2.MyDeviceActivityMonitor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -277,7 +275,7 @@
 			};
 			name = Debug;
 		};
-		9964EA8826E2B10C007000D1 /* Release */ = {
+		9915EAB426E2DED300A00692 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -286,8 +284,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 47C966XSTJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyExtension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = MyExtension;
+				INFOPLIST_FILE = MyDeviceActivityMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyDeviceActivityMonitor;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,7 +293,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.garrett-harris.adam.Homework2.MyExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garrett-harris.adam.Homework2.MyDeviceActivityMonitor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -489,11 +487,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9964EA8626E2B10C007000D1 /* Build configuration list for PBXNativeTarget "MyExtension" */ = {
+		9915EAB226E2DED300A00692 /* Build configuration list for PBXNativeTarget "MyDeviceActivityMonitor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9964EA8726E2B10C007000D1 /* Debug */,
-				9964EA8826E2B10C007000D1 /* Release */,
+				9915EAB326E2DED300A00692 /* Debug */,
+				9915EAB426E2DED300A00692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
